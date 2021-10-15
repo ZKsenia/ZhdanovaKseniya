@@ -196,3 +196,406 @@ if n in range (10,40+1):
         print ('сорок',a,sep =' ')
 else:
     print('Введите значение, удовлетворяющее диапозону')
+n = int(input())
+a = n%10
+b = (n//10)%10
+c = n//100
+c.1 = 'сто'
+c.2 = 'двести'
+c.3 = 'триста'
+c.4 = 'четыреста'
+c.5 = 'пятьсот'
+c.6 = 'шестьсот'
+c.7 = 'семьсот'
+c.8 = 'восемьсот'
+c.9 = 'девятьсот'
+b.10 = 'десять'
+b.11 = 'одиннадцать'
+b.12 = 'двенадцать'
+b.13 = 'тринадцать'
+b.14 = 'четырнадцать'
+b.15 = 'пятнадцать'
+b.16 = 'шестнадцать'
+b.17 = 'семнадцать'
+b.18 = 'восемнадцать'
+b.19 = 'девятнадцать'
+b.20 = 'двадцать'
+b.30 = 'тридцать'
+b.40 = 'сорок'
+b.50 = 'пятьдесят'
+b.60 = 'шестьдесят'
+b.70 = 'семьдесят'
+b.80 = 'восемьдесят'
+b.90 = 'девяносто'
+a.1 = 'один'
+a.2 = 'два'
+a.3 = 'три'
+a.4 = 'четыре'
+a.5 = 'пять'
+a.6 = 'шесть'
+a.7 = 'семь'
+a.8 = 'восемь'
+a.9 = 'девять'
+if n in range (100,999+1):
+    if (a == 1):
+        if (n%100 == 11):
+            print (c.1,b.11,sep=' ')
+        elif (n%100 == 12):
+            print (c.1,b.12,sep=' ')
+        elif (n%100 == 13):
+            print (c.1,b.13,sep=' ')
+        elif (n%100 == 14):
+            print (c.1,b.14,sep=' ')
+        elif (n%100 == 15):
+            print (c.1,b.15,sep=' ')
+        elif (n%100 == 16):
+            print (c.1,b.16,sep=' ')
+        elif (n%100 == 17):
+            print (c.1,b.17,sep=' ')
+        elif (n%100 == 18):
+            print (c.1,b.18,sep=' ')
+        elif (n%100 == 19):
+            print (c.1,b.19,sep=' ')
+        elif (n%100 == 10):
+            print (c.1,b.10,sep=' ')
+        elif (n%100 == 20):
+            print (c.1,b.20,sep=' ')
+        elif (n%100 == 30):
+            print (c.1,b.30,sep=' ')
+        elif (n%100 == 40):
+            print (c.1,b.40,sep=' ')
+        elif (n%100 == 50):
+            print (c.1,b.50,sep=' ')
+        elif (n%100 == 60):
+            print (c.1,b.60,sep=' ')
+        elif (n%100 == 70):
+            print (c.1,b.70,sep=' ')
+        elif (n%100 == 80):
+            print (c.1,b.80,sep=' ')
+        elif (n%100 == 90):
+            print (c.1,b.90,sep=' ')
+        elif (b==2) and (c==1):
+            print(c.1,b.20, a.1, sep=' ')
+        elif (b==2) and (c==2):
+            print(c.1,b.20, a.2, sep=' ')
+        elif (b==2) and (c==3):
+            print(c.1,b.20, a.3, sep=' ')
+        elif (b==2) and (c==4):
+            print(c.1,b.20, a.4, sep=' ')
+        elif (b==2) and (c==5):
+            print(c.1,b.20, a.5, sep=' ')
+        elif (b==2) and (c==6):
+            print(c.1,b.20, a.6, sep=' ')
+        elif (b==2) and (c==7):
+            print(c.1,b.20, a.7, sep=' ')
+        elif (b==2) and (c==8):
+            print(c.1,b.20, a.8, sep=' ')
+        elif (b==2) and (c==9):
+            print(c.1,b.20, a.9, sep=' ')
+        elif (b==3) and (c==1):
+            print(c.1,b.30, a.1, sep=' ')
+        elif (b==3) and (c==2):
+            print(c.1,b.30, a.2, sep=' ')
+        elif (b==3) and (c==3):
+            print(c.1,b.30, a.3, sep=' ')
+        elif (b==3) and (c==4):
+            print(c.1,b.30, a.4, sep=' ')
+        elif (b==3) and (c==5):
+            print(c.1,b.30, a.5, sep=' ')
+        elif (b==3) and (c==6):
+            print(c.1,b.30, a.6, sep=' ')
+        elif (b==3) and (c==7):
+            print(c.1,b.30, a.7, sep=' ')
+        elif (b==3) and (c==8):
+            print(c.1,b.30, a.8, sep=' ')
+        elif (b==3) and (c==9):
+            print(c.1,b.30, a.9, sep=' ')
+        elif (b==4) and (c==1):
+            print(c.1,b.40, a.1, sep=' ')
+        elif (b==4) and (c==2):
+            print(c.1,b.40, a.2, sep=' ')
+        elif (b==4) and (c==3):
+            print(c.1,b.40, a.3, sep=' ')
+        elif (b==4) and (c==4):
+            print(c.1,b.40, a.4, sep=' ')
+        elif (b==4) and (c==5):
+            print(c.1,b.40, a.5, sep=' ')
+        elif (b==4) and (c==6):
+            print(c.1,b.40, a.6, sep=' ')
+        elif (b==4) and (c==7):
+            print(c.1,b.40, a.7, sep=' ')
+        elif (b==4) and (c==8):
+            print(c.1,b.40, a.8, sep=' ')
+        elif (b==4) and (c==9):
+            print(c.1,b.40, a.9, sep=' ')
+        elif (b==5) and (c==1):
+            print(c.1,b.50, a.1, sep=' ')
+        elif (b==5) and (c==2):
+            print(c.1,b.50, a.2, sep=' ')
+        elif (b==5) and (c==3):
+            print(c.1,b.50, a.3, sep=' ')
+        elif (b==5) and (c==4):
+            print(c.1,b.50, a.4, sep=' ')
+        elif (b==5) and (c==5):
+            print(c.1,b.50, a.5, sep=' ')
+        elif (b==5) and (c==6):
+            print(c.1,b.50, a.6, sep=' ')
+        elif (b==5) and (c==7):
+            print(c.1,b.50, a.7, sep=' ')
+        elif (b==5) and (c==8):
+            print(c.1,b.50, a.8, sep=' ')
+        elif (b==5) and (c==9):
+            print(c.1,b.50, a.9, sep=' ')
+        elif (b==6) and (c==1):
+            print(c.1,b.60, a.1, sep=' ')
+        elif (b==6) and (c==2):
+            print(c.1,b.60, a.2, sep=' ')
+        elif (b==6) and (c==3):
+            print(c.1,b.60, a.3, sep=' ')
+        elif (b==6) and (c==4):
+            print(c.1,b.60, a.4, sep=' ')
+        elif (b==6) and (c==5):
+            print(c.1,b.60, a.5, sep=' ')
+        elif (b==6) and (c==6):
+            print(c.1,b.60, a.6, sep=' ')
+        elif (b==6) and (c==7):
+            print(c.1,b.60, a.7, sep=' ')
+        elif (b==6) and (c==8):
+            print(c.1,b.60, a.8, sep=' ')
+        elif (b==6) and (c==9):
+            print(c.1,b.60, a.9, sep=' ')
+        elif (b==7) and (c==1):
+            print(c.1,b.70, a.1, sep=' ')
+        elif (b==7) and (c==2):
+            print(c.1,b.70, a.2, sep=' ')
+        elif (b==7) and (c==3):
+            print(c.1,b.70, a.3, sep=' ')
+        elif (b==7) and (c==4):
+            print(c.1,b.70, a.4, sep=' ')
+        elif (b==7) and (c==5):
+            print(c.1,b.70, a.5, sep=' ')
+        elif (b==7) and (c==6):
+            print(c.1,b.70, a.6, sep=' ')
+        elif (b==7) and (c==7):
+            print(c.1,b.70, a.7, sep=' ')
+        elif (b==7) and (c==8):
+            print(c.1,b.70, a.8, sep=' ')
+        elif (b==7) and (c==9):
+            print(c.1,b.70, a.9, sep=' ')
+        elif (b==8) and (c==1):
+            print(c.1,b.80, a.1, sep=' ')
+        elif (b==8) and (c==2):
+            print(c.1,b.80, a.2, sep=' ')
+        elif (b==8) and (c==3):
+            print(c.1,b.80, a.3, sep=' ')
+        elif (b==8) and (c==4):
+            print(c.1,b.80, a.4, sep=' ')
+        elif (b==8) and (c==5):
+            print(c.1,b.80, a.5, sep=' ')
+        elif (b==8) and (c==6):
+            print(c.1,b.80, a.6, sep=' ')
+        elif (b==8) and (c==7):
+            print(c.1,b.80, a.7, sep=' ')
+        elif (b==8) and (c==8):
+            print(c.1,b.80, a.8, sep=' ')
+        elif (b==8) and (c==9):
+            print(c.1,b.80, a.9, sep=' ')
+        elif (b==9) and (c==1):
+            print(c.1,b.90, a.1, sep=' ')
+        elif (b==9) and (c==2):
+            print(c.1,b.90, a.2, sep=' ')
+        elif (b==9) and (c==3):
+            print(c.1,b.90, a.3, sep=' ')
+        elif (b==9) and (c==4):
+            print(c.1,b.90, a.4, sep=' ')
+        elif (b==9) and (c==5):
+            print(c.1,b.90, a.5, sep=' ')
+        elif (b==9) and (c==6):
+            print(c.1,b.90, a.6, sep=' ')
+        elif (b==9) and (c==7):
+            print(c.1,b.90, a.7, sep=' ')
+        elif (b==9) and (c==8):
+            print(c.1,b.90, a.8, sep=' ')
+        elif (b==9) and (c==9):
+            print(c.1,b.90, a.9, sep=' ')
+    if (a == 2):
+        if (n%100 == 11):
+            print (c.2,b.11,sep=' ')
+        elif (n%100 == 12):
+            print (c.2,b.12,sep=' ')
+        elif (n%100 == 13):
+            print (c.2,b.13,sep=' ')
+        elif (n%100 == 14):
+            print (c.2,b.14,sep=' ')
+        elif (n%100 == 15):
+            print (c.2,b.15,sep=' ')
+        elif (n%100 == 16):
+            print (c.2,b.16,sep=' ')
+        elif (n%100 == 17):
+            print (c.2,b.17,sep=' ')
+        elif (n%100 == 18):
+            print (c.2,b.18,sep=' ')
+        elif (n%100 == 19):
+            print (c.2,b.19,sep=' ')
+        elif (n%100 == 10):
+            print (c.2,b.10,sep=' ')
+        elif (n%100 == 20):
+            print (c.2,b.20,sep=' ')
+        elif (n%100 == 30):
+            print (c.2,b.30,sep=' ')
+        elif (n%100 == 40):
+            print (c.2,b.40,sep=' ')
+        elif (n%100 == 50):
+            print (c.2,b.50,sep=' ')
+        elif (n%100 == 60):
+            print (c.2,b.60,sep=' ')
+        elif (n%100 == 70):
+            print (c.2,b.70,sep=' ')
+        elif (n%100 == 80):
+            print (c.2,b.80,sep=' ')
+        elif (n%100 == 90):
+            print (c.2,b.90,sep=' ')
+        elif (b==2) and (c==1):
+            print(c.2,b.20, a.1, sep=' ')
+        elif (b==2) and (c==2):
+            print(c.2,b.20, a.2, sep=' ')
+        elif (b==2) and (c==3):
+            print(c.2,b.20, a.3, sep=' ')
+        elif (b==2) and (c==4):
+            print(c.2,b.20, a.4, sep=' ')
+        elif (b==2) and (c==5):
+            print(c.2,b.20, a.5, sep=' ')
+        elif (b==2) and (c==6):
+            print(c.2,b.20, a.6, sep=' ')
+        elif (b==2) and (c==7):
+            print(c.2,b.20, a.7, sep=' ')
+        elif (b==2) and (c==8):
+            print(c.2,b.20, a.8, sep=' ')
+        elif (b==2) and (c==9):
+            print(c.2,b.20, a.9, sep=' ')
+        elif (b==3) and (c==1):
+            print(c.2,b.30, a.1, sep=' ')
+        elif (b==3) and (c==2):
+            print(c.2,b.30, a.2, sep=' ')
+        elif (b==3) and (c==3):
+            print(c.2,b.30, a.3, sep=' ')
+        elif (b==3) and (c==4):
+            print(c.2,b.30, a.4, sep=' ')
+        elif (b==3) and (c==5):
+            print(c.2,b.30, a.5, sep=' ')
+        elif (b==3) and (c==6):
+            print(c.2,b.30, a.6, sep=' ')
+        elif (b==3) and (c==7):
+            print(c.2,b.30, a.7, sep=' ')
+        elif (b==3) and (c==8):
+            print(c.2,b.30, a.8, sep=' ')
+        elif (b==3) and (c==9):
+            print(c.2,b.30, a.9, sep=' ')
+        elif (b==4) and (c==1):
+            print(c.2,b.40, a.1, sep=' ')
+        elif (b==4) and (c==2):
+            print(c.2,b.40, a.2, sep=' ')
+        elif (b==4) and (c==3):
+            print(c.2,b.40, a.3, sep=' ')
+        elif (b==4) and (c==4):
+            print(c.2,b.40, a.4, sep=' ')
+        elif (b==4) and (c==5):
+            print(c.2,b.40, a.5, sep=' ')
+        elif (b==4) and (c==6):
+            print(c.2,b.40, a.6, sep=' ')
+        elif (b==4) and (c==7):
+            print(c.2,b.40, a.7, sep=' ')
+        elif (b==4) and (c==8):
+            print(c.2,b.40, a.8, sep=' ')
+        elif (b==4) and (c==9):
+            print(c.2,b.40, a.9, sep=' ')
+        elif (b==5) and (c==1):
+            print(c.2,b.50, a.1, sep=' ')
+        elif (b==5) and (c==2):
+            print(c.2,b.50, a.2, sep=' ')
+        elif (b==5) and (c==3):
+            print(c.2,b.50, a.3, sep=' ')
+        elif (b==5) and (c==4):
+            print(c.2,b.50, a.4, sep=' ')
+        elif (b==5) and (c==5):
+            print(c.2,b.50, a.5, sep=' ')
+        elif (b==5) and (c==6):
+            print(c.2,b.50, a.6, sep=' ')
+        elif (b==5) and (c==7):
+            print(c.2,b.50, a.7, sep=' ')
+        elif (b==5) and (c==8):
+            print(c.2,b.50, a.8, sep=' ')
+        elif (b==5) and (c==9):
+            print(c.2,b.50, a.9, sep=' ')
+        elif (b==6) and (c==1):
+            print(c.2,b.60, a.1, sep=' ')
+        elif (b==6) and (c==2):
+            print(c.2,b.60, a.2, sep=' ')
+        elif (b==6) and (c==3):
+            print(c.2,b.60, a.3, sep=' ')
+        elif (b==6) and (c==4):
+            print(c.2,b.60, a.4, sep=' ')
+        elif (b==6) and (c==5):
+            print(c.2,b.60, a.5, sep=' ')
+        elif (b==6) and (c==6):
+            print(c.2,b.60, a.6, sep=' ')
+        elif (b==6) and (c==7):
+            print(c.2,b.60, a.7, sep=' ')
+        elif (b==6) and (c==8):
+            print(c.2,b.60, a.8, sep=' ')
+        elif (b==6) and (c==9):
+            print(c.2,b.60, a.9, sep=' ')
+        elif (b==7) and (c==1):
+            print(c.2,b.70, a.1, sep=' ')
+        elif (b==7) and (c==2):
+            print(c.2,b.70, a.2, sep=' ')
+        elif (b==7) and (c==3):
+            print(c.2,b.70, a.3, sep=' ')
+        elif (b==7) and (c==4):
+            print(c.2,b.70, a.4, sep=' ')
+        elif (b==7) and (c==5):
+            print(c.2,b.70, a.5, sep=' ')
+        elif (b==7) and (c==6):
+            print(c.2,b.70, a.6, sep=' ')
+        elif (b==7) and (c==7):
+            print(c.2,b.70, a.7, sep=' ')
+        elif (b==7) and (c==8):
+            print(c.2,b.70, a.8, sep=' ')
+        elif (b==7) and (c==9):
+            print(c.2,b.70, a.9, sep=' ')
+        elif (b==8) and (c==1):
+            print(c.2,b.80, a.1, sep=' ')
+        elif (b==8) and (c==2):
+            print(c.2,b.80, a.2, sep=' ')
+        elif (b==8) and (c==3):
+            print(c.2,b.80, a.3, sep=' ')
+        elif (b==8) and (c==4):
+            print(c.2,b.80, a.4, sep=' ')
+        elif (b==8) and (c==5):
+            print(c.2,b.80, a.5, sep=' ')
+        elif (b==8) and (c==6):
+            print(c.2,b.80, a.6, sep=' ')
+        elif (b==8) and (c==7):
+            print(c.2,b.80, a.7, sep=' ')
+        elif (b==8) and (c==8):
+            print(c.2,b.80, a.8, sep=' ')
+        elif (b==8) and (c==9):
+            print(c.2,b.80, a.9, sep=' ')
+        elif (b==9) and (c==1):
+            print(c.2,b.90, a.1, sep=' ')
+        elif (b==9) and (c==2):
+            print(c.2,b.90, a.2, sep=' ')
+        elif (b==9) and (c==3):
+            print(c.2,b.90, a.3, sep=' ')
+        elif (b==9) and (c==4):
+            print(c.2,b.90, a.4, sep=' ')
+        elif (b==9) and (c==5):
+            print(c.2,b.90, a.5, sep=' ')
+        elif (b==9) and (c==6):
+            print(c.2,b.90, a.6, sep=' ')
+        elif (b==9) and (c==7):
+            print(c.2,b.90, a.7, sep=' ')
+        elif (b==9) and (c==8):
+            print(c.2,b.90, a.8, sep=' ')
+        elif (b==9) and (c==9):
+            print(c.2,b.90, a.9, sep=' ')
