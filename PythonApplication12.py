@@ -1887,3 +1887,69 @@ if n in range (100,999+1):
             print(c_9,b_90, a_9, sep=' ')
 else:
     print('Введите значение из установленного диапозона')
+#12.5
+n = int(input())
+z = 'зелён'
+k = 'красн'
+zh = 'жёлт'
+b = 'бел'
+ch = 'чёрн'
+ziv_1 = 'крысы'
+ziv_2 = 'коровы'
+ziv_3 = 'тигра'
+ziv_4 = 'зайца'
+ziv_5 = 'дракона'
+ziv_6 = 'змеи'
+ziv_7 = 'лошади'
+ziv_8 = 'овцы'
+ziv_9 = 'обезьяны'
+ziv_10 = 'курицы'
+ziv_11 = 'собаки'
+ziv_12 = 'свиньи'
+def f(n):
+    if (((n%10) == 0) or ((n%10) == 1)):
+        color = b 
+    elif (((n%10) == 2) or ((n%10) == 3)):
+        color = ch 
+    elif (((n%10) == 4) or ((n%10) == 5)):
+        color = z
+    elif (((n%10) == 6) or ((n%10) == 7)):
+        color = k 
+    elif (((n%10) == 8) or ((n%10) == 9)):
+        color = zh
+    else:
+        color = 0
+    if (((n%12) == 0) or ((n%12) == 1) or ((n%12) == 2) or ((n%12) == 3) or ((n%12) == 4) or ((n%12) == 5) or ((n%12) == 9) or ((n%12) == 10) or ((n%12) == 11)):
+        rod = 'ой'
+    elif (((n%12) == 6) or ((n%12) == 7) or ((n%12) == 8)):
+        rod = 'ого'
+    else:
+        rod = 0
+    if ((n+8)%12 == 0):
+        ziv = ziv_1
+    elif ((n+8)%12 == 1):
+        ziv = ziv_2
+    elif ((n+8)%12 == 2):
+        ziv = ziv_3
+    elif ((n+8)%12 == 3):
+        ziv = ziv_4
+    elif ((n+8)%12 == 4):
+        ziv = ziv_5
+    elif ((n+8)%12 == 5):
+        ziv = ziv_6
+    elif ((n+8)%12 == 6):
+        ziv = ziv_7
+    elif ((n+8)%12 == 7):
+        ziv = ziv_8
+    elif ((n+8)%12 == 8):
+        ziv = ziv_9
+    elif ((n+8)%12 == 9):
+        ziv = ziv_10
+    elif ((n+8)%12 == 10):
+        ziv = ziv_11
+    elif ((n+8)%12 == 11):
+        ziv = ziv_12
+    else:
+        ziv = 0
+    return ('Год', color, rod, ziv)
+print (f(n))
