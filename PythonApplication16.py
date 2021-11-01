@@ -16,10 +16,10 @@ print('Введите A')
 a = int(input())
 print('Введите D')
 d = int(input())
-m=[]
+m=[a]*n
 if (n>1):
-    for i in range(1,n+1):
-        m.append(a*d)
+    for i in range(1,len(m)):
+        m[i]=a*d
         a = a*d
     print('ответ =',m, sep = ' ')
 else:
